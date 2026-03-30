@@ -30,6 +30,7 @@
         {
             this.btnAntoin = new System.Windows.Forms.Button();
             this.btnJack = new System.Windows.Forms.Button();
+            this.btnLeon = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAntoin
@@ -50,11 +51,21 @@
             this.btnJack.Text = "Jack";
             this.btnJack.UseVisualStyleBackColor = true;
             // 
+            // btnLeon
+            // 
+            this.btnLeon.Location = new System.Drawing.Point(566, 49);
+            this.btnLeon.Name = "btnLeon";
+            this.btnLeon.Size = new System.Drawing.Size(75, 23);
+            this.btnLeon.TabIndex = 2;
+            this.btnLeon.Text = "Leon";
+            this.btnLeon.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnLeon);
             this.Controls.Add(this.btnJack);
             this.Controls.Add(this.btnAntoin);
             this.Name = "Form1";
@@ -67,6 +78,7 @@
 
         private System.Windows.Forms.Button btnAntoin;
         private System.Windows.Forms.Button btnJack;
+        private System.Windows.Forms.Button btnLeon;
     }
 }
 
